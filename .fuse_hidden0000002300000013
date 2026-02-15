@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — GeoPACHA-AI</title>
+  <meta name="description" content="Peer-reviewed research from the GeoPACHA-AI team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+        <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="funding.html">Funding</a></li>
+        <li><a href="about.html">Team</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Publications</h1>
+      <p>Peer-reviewed research from the GeoPACHA team</p>
+    </div>
+  </section>
+
+  <!-- Publications Content -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="pub-list fade-in">
+
+        <!-- 2025 -->
+        <div class="pub-year">
+          <h2>2025</h2>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Vision Foundation Models in Remote Sensing: A Survey"</div>
+          <div class="pub-authors">Lu, Siqi, Junlin Guo, James R. Zimmer-Dauphinee, Jordan M. Nieusma, Xiao Wang, Parker vanValkenburgh, Steven A. Wernke, and Yuankai Huo</div>
+          <div class="pub-journal">IEEE Geoscience and Remote Sensing Magazine, Online first: 2–27.</div>
+          <div class="pub-link"><a href="https://ieeexplore.ieee.org/document/10916803" target="_blank">View Publication</a></div>
+        </div>
+
+        <!-- 2024 -->
+        <div class="pub-year">
+          <h2>2024</h2>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Semantic Segmentation and Classification of Active and Abandoned Agricultural Fields through Deep Learning in the Southern Peruvian Andes"</div>
+          <div class="pub-authors">James Zimmer-Dauphinee, Steven A. Wernke</div>
+          <div class="pub-journal">Remote Sensing 16(19):3546.</div>
+          <div class="pub-link"><a href="https://www.mdpi.com/2968462" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Imágenes aéreas sistemáticas y documentación del sitio arqueológico de Huari: Una actualización y perspectivas para el futuro"</div>
+          <div class="pub-authors">Justin Jennings, Steven A. Wernke, Stephen Berquist, Felipe Gonzalez Macqueen, Natalie Robbins, Giles Spence-Morrow, James Zimmer-Dauphinee</div>
+          <div class="pub-journal">Chungará 56(1):23-44.</div>
+          <div class="pub-link"><a href="https://www.chungara.cl/index.php/es/allcategories-en-us/14-volumenes-espanol/articulos-espanol/791-20245601-es-3-imagenes-aereas-sistematicas-y-documentacion-del-sitio-arqueologico-de-huari-una-actualizacion-y-perspectivas-para-el-futuro" target="_blank">View Publication</a></div>
+        </div>
+
+        <!-- 2023 -->
+        <div class="pub-year">
+          <h2>2023</h2>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Large-Scale, Collaborative Imagery Survey in Archaeology: The Geospatial Platform for Andean Culture, History, and Archaeology (GeoPACHA)"</div>
+          <div class="pub-authors">Steven A. Wernke, Parker VanValkenburgh, James Zimmer-Dauphinee, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.177" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"A New View of Hillforts in the Andes"</div>
+          <div class="pub-authors">Arkush, Elizabeth, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.178" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Late Pre-Hispanic Fog Oasis Settlements and Long-Term Human Occupation on the Peruvian Central Coast from Satellite Imagery"</div>
+          <div class="pub-authors">Marcone, Giancarlo, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.179" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Augmenting Field Data with Archaeological Imagery Survey: Mapping Hilltop Fortifications on the North Coast of Peru"</div>
+          <div class="pub-authors">Morrow, Giles Spence, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.176" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Managing Pastoral Landscapes: Remote Survey of Herding Infrastructure in Huancavelica, Peru"</div>
+          <div class="pub-authors">Whitlock, Bethany, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.174" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Eyes of the Machine: AI-Assisted Satellite Archaeological Survey in the Andes"</div>
+          <div class="pub-authors">Zimmer-Dauphinee, James, et al.</div>
+          <div class="pub-journal">Antiquity</div>
+          <div class="pub-link"><a href="https://doi.org/10.15184/aqy.2023.175" target="_blank">View Publication</a></div>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Semi-Supervised Contrastive Learning for Remote Sensing: Identifying Ancient Urbanization in the South-Central Andes"</div>
+          <div class="pub-authors">Jiachen Xu, Junlin Guo, et al.</div>
+          <div class="pub-journal">International Journal of Remote Sensing 44(6):1922-1938.</div>
+          <div class="pub-link"><a href="https://doi.org/10.1080/01431161.2023.2192879" target="_blank">View Publication</a></div>
+        </div>
+
+        <!-- 2021 -->
+        <div class="pub-year">
+          <h2>2021</h2>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Linking Past and Present Land-use Histories in Southern Amazonas, Peru"</div>
+          <div class="pub-authors">Daniel Plekhov, Parker VanValkenburgh, et al.</div>
+          <div class="pub-journal">Remote Sensing 13(12):2274-2293.</div>
+          <div class="pub-link"><a href="https://www.mdpi.com/2072-4292/13/12/2274/htm" target="_blank">View Publication</a></div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="pub-year">
+          <h2>2020</h2>
+        </div>
+
+        <div class="pub-entry fade-in">
+          <div class="pub-title">"Interregional Archaeology in the Age of Big Data: Building Online Collaborative Platforms for Virtual Survey in the Andes"</div>
+          <div class="pub-authors">Steven A. Wernke, Parker VanValkenburgh, and Akira Saito</div>
+          <div class="pub-journal">Journal of Field Archaeology 45(S1):61-74.</div>
+          <div class="pub-link"><a href="https://stevenwernke.com/wp-content/uploads/2020/09/Wernke_2020.pdf" target="_blank">View Publication</a></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+          <p>An international collaborative project developing AI models for continental-scale archaeological survey across the Andes.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Project</h4>
+          <ul>
+            <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+            <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>More</h4>
+          <ul>
+            <li><a href="about.html">Team</a></li>
+            <li><a href="funding.html">Funding</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 GeoPACHA-AI &middot; Vanderbilt University &amp; Brown University</span>
+        <div class="footer-logos">
+          <img src="images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF" loading="lazy">
+          <img src="images/logos/neh_logo_horizsmall.jpg" alt="NEH" loading="lazy">
+          <img src="images/logos/ACLSlogo-big.png" alt="ACLS" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

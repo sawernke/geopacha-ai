@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why GeoPACHA-AI? — Addressing Scalar Limits in Archaeology</title>
+  <meta name="description" content="Discover how GeoPACHA-AI addresses the scalar limits of archaeological research through human-machine teaming and Vision Transformer AI models.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+        <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="funding.html">Funding</a></li>
+        <li><a href="about.html">Team</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="page-hero page-hero--image" style="background-image: url('images/heroes/NC_01.png');">
+    <div class="container">
+      <h1>Why GeoPACHA-AI?</h1>
+      <p>Addressing the scalar limits of archaeological research through human-machine teaming</p>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="prose fade-in">
+        <h2>Scalar Limits in Archaeology</h2>
+        <p>Archaeology faces persistent challenges of aligning granular field data with the massive scale of many social processes we study. While the Inca Empire (Tawantinsuyu) organized distinct social and ecological zones into a massive, integrated polity spanning two million square kilometers, archaeological surveys have traditionally been confined to "valley-sized silos." To date, we have lacked continuous, consistent data on settlement patterns and land use at the continental scale necessary to investigate imperial political economy, demography, and long-term human adaptations to climate change.</p>
+      </div>
+
+      <div class="prose fade-in">
+        <h2>Our Solution: Human-Machine Teaming</h2>
+        <p>GeoPACHA-AI addresses this challenge through a novel "expert-machine teaming" approach. Rather than relying solely on manual labor or fully autonomous automation, we combine the discernment of regional experts with the scalability of artificial intelligence.</p>
+        <p>The project began with a "brute force" manual imagery survey (GeoPACHA 1.0), where our network of collaborators and student teams painstakingly documented over 40,000 archaeological loci across eight survey zones. This high-quality, expertly curated dataset now serves as the foundation for the next phase: an AI-assisted survey spanning nearly the entirety of the Andes, from northern Ecuador through southern Chile. This area of about two million square kilometers encompasses the approximate historic footprint of Tawantinsuyu (the Inka Empire). Our goal is to enable new continental-scale perspectives on archaeological features. We are pursuing continental-scale understandings of land use and settlement patterns, so our models include both semantic segmentation models of agricultural field systems (including active and abandoned terrace complexes, for example) and features associated with human settlements, such as abandoned structures (archaeological buildings) and features related to pastoralist settlements in the high puna grasslands.</p>
+      </div>
+
+      <div class="prose fade-in">
+        <h2>DeepAndes and Vision Transformers</h2>
+        <p>At the core of the AI system are two models: DeepAndes, a custom Vision Transformer (ViT) model that we have created from a large sample (3 million image patches), and DeepAndesArch, the fine-tuned model based on the training data inputs from our collaborating teams. We are now in the process of generating a revised DeepAndes foundation model based on a much larger sample of the WorldView-2, WorldView-3 multispectral imagery the project is using, and enriched by elevation, land cover, and climatic rasters. This revised foundation model (DeepAndesV2) is enabled by the supercomputing resources of <a href="https://www.ornl.gov/directorate/ccsd">Oak Ridge National Laboratory</a>.</p>
+        <p>Our interdisciplinary team is led by <a href="http://stevenwernke.com">Steven Wernke</a> (Professor and Chair, Department of Anthropology, Vanderbilt University), <a href="https://vivo.brown.edu/display/pvanvalk">Parker VanValkenburgh</a> (Associate Professor, Department of Anthropology, Brown University), <a href="https://hrlblab.github.io/author/yuankai-huo/">Yuankai Huo</a> (Assistant Professor of Computer Science, Vanderbilt University), and <a href="https://stevenwernke.com/?page_id=57">James Zimmer-Dauphinee</a> (Postdoctoral Fellow, Department of Anthropology, Vanderbilt University). The project has also benefitted from major contributions by <a href="https://www.linkedin.com/in/junlin-guo-609027168/">Junlin Guo</a> (PhD candidate, Computer Science, Vanderbilt University) and <a href="https://www.linkedin.com/in/siqi-lu-097522293/">Siqi Lu</a> (PhD candidate, Computer Science, College of William and Mary). The computationally-intensive foundation model training required for DeepAndesV2 is made possible by our ongoing collaboration with <a href="https://www.ornl.gov/staff-profile/xiao-wang">Xiao Wang</a> (Research Scientist, Oak Ridge National Laboratory).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+          <p>An international collaborative project developing AI models for continental-scale archaeological survey across the Andes.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Project</h4>
+          <ul>
+            <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+            <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>More</h4>
+          <ul>
+            <li><a href="about.html">Team</a></li>
+            <li><a href="funding.html">Funding</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 GeoPACHA-AI &middot; Vanderbilt University &amp; Brown University</span>
+        <div class="footer-logos">
+          <img src="images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF" loading="lazy">
+          <img src="images/logos/neh_logo_horizsmall.jpg" alt="NEH" loading="lazy">
+          <img src="images/logos/ACLSlogo-big.png" alt="ACLS" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

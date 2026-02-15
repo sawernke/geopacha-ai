@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About GeoPACHA-AI — Vision Transformer Models for Archaeological Survey</title>
+  <meta name="description" content="Learn about the Vision Transformer models and AI-assisted archaeological survey pipeline that powers GeoPACHA-AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+        <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+        <li><a href="about.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+        <li><a href="funding.html">Funding</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>About GeoPACHA-AI</h1>
+      <p class="hero-subtitle">Our Vision Transformer models and AI-assisted archaeological survey pipeline</p>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="prose fade-in">
+        <p>With GeoPACHA-AI, archaeologists and machine learning experts have teamed together to design and build a new Vision Transformer (ViT) foundation model (DeepAndes) from WorldView 2 and WorldView 3 high resolution multispectral satellite imagery, with potential applications in many areas of research, from the earth sciences to urban planning and disaster preparedness. We then fine-tuned DeepAndes with a range of human-labeled data, resulting in our archaeology-specific AI model, DeepAndesArch.</p>
+      </div>
+
+      <div class="">
+        <figure class="figure">
+          <img src="images/diagrams/Model-Deployment-Pipeline.png" alt="GeoPACHA-AI Model Deployment Pipeline" loading="lazy">
+          <figcaption>The GeoPACHA-AI model deployment pipeline</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose fade-in">
+        <p>Deployment of DeepAndesArch then enables autonomous detection of a range of archaeological features over large areas of Andean South America. The GeoPACHA-AI platform enables international teams of archaeologists to systematically and efficiently audit these autonomous detections. We will then use these audited data to improve DeepAndesArch performance to human- or better-than-human sensitivity and specificity, for deployment over virtually all of the Andes—an area of about 2 million square kilometers in an area approximately coincident with the historic footprint of the Inka Empire.</p>
+      </div>
+
+      <div class="prose fade-in">
+        <p>Our goal is to detect the visible relict architectural features, active and abandoned agricultural infrastructure (terrace and field systems) across this vast area for the archaeological research community and heritage management entities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+          <p>An international collaborative project developing AI models for continental-scale archaeological survey across the Andes.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Project</h4>
+          <ul>
+            <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+            <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>More</h4>
+          <ul>
+            <li><a href="about.html">Team</a></li>
+            <li><a href="funding.html">Funding</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 GeoPACHA-AI &middot; Vanderbilt University &amp; Brown University</span>
+        <div class="footer-logos">
+          <img src="images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF" loading="lazy">
+          <img src="images/logos/neh_logo_horizsmall.jpg" alt="NEH" loading="lazy">
+          <img src="images/logos/ACLSlogo-big.png" alt="ACLS" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team — GeoPACHA-AI</title>
+  <meta name="description" content="Meet the international, interdisciplinary team of archaeologists and computer scientists behind GeoPACHA-AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+        <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+        <li><a href="about.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+        <li><a href="funding.html">Funding</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Our Team</h1>
+      <p class="hero-subtitle">An international, interdisciplinary team of archaeologists and computer scientists</p>
+    </div>
+  </section>
+
+  <!-- Team Content -->
+  <section class="section">
+    <div class="container">
+      <div class="team-section fade-in">
+        <h2>Project Directors &amp; General Editors</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="name">Steven Wernke</div>
+            <div class="role">Professor and Chair, Department of Anthropology, Vanderbilt University</div>
+          </div>
+          <div class="team-member">
+            <div class="name">Parker VanValkenburgh</div>
+            <div class="role">Associate Professor, Department of Anthropology, Brown University</div>
+          </div>
+          <div class="team-member">
+            <div class="name">Yuankai Huo</div>
+            <div class="role">Assistant Professor, Department of Computer Science, Vanderbilt University</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="team-section fade-in">
+        <h2>Graduate Students</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="name">Junlin Guo</div>
+            <div class="role">Department of Computer Science, Vanderbilt University</div>
+          </div>
+          <div class="team-member">
+            <div class="name">Siqi Lu</div>
+            <div class="role">Department of Computer Science, Vanderbilt University</div>
+          </div>
+          <div class="team-member">
+            <div class="name">Connor Sutton</div>
+            <div class="role">Department of Anthropology, Vanderbilt University</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="team-section fade-in">
+        <h2>Postdoctoral Fellow</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="name">James Zimmer-Dauphinee</div>
+            <div class="role">Department of Anthropology, Vanderbilt University</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="team-section fade-in">
+        <h2>Regional Editors &amp; Surveyors</h2>
+
+        <div class="region-group fade-in">
+          <h3>Central Coast</h3>
+          <ul class="surveyor-list">
+            <li><strong>Giancarlo Marcone</strong> — Regional Editor</li>
+            <li><strong>Geraldine Huertas Sánchez</strong> — Surveyor</li>
+            <li><strong>Luis Fernando Bejar Luksic</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>Lima Highlands</h3>
+          <ul class="surveyor-list">
+            <li><strong>Gabriela Oré</strong> — Regional Editor</li>
+            <li><strong>Bradymir Bravo Mesa</strong> — Surveyor</li>
+            <li><strong>Adolfo Aranibar Bazan</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>Northern Highlands</h3>
+          <ul class="surveyor-list">
+            <li><strong>Jason Toohey</strong> — Regional Editor</li>
+            <li><strong>Patricia Chirinos Ogata</strong> — Surveyor</li>
+            <li><strong>Brad Murdock</strong> — Surveyor</li>
+            <li><strong>Ann Marie Stephens</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>Chachapoyas</h3>
+          <ul class="surveyor-list">
+            <li><strong>Parker VanValkenburgh</strong> — Regional Editor</li>
+            <li><strong>Alexis Jair Reategui Diaz</strong> — Surveyor</li>
+            <li><strong>Luisa Raquel Mejia Aranguren</strong> — Surveyor</li>
+            <li><strong>Anthony Alex Villar Quintana</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>Chile</h3>
+          <ul class="surveyor-list">
+            <li><strong>Pablo Quiros Mendes</strong> — Regional Editor</li>
+            <li><strong>Frances Hayashida</strong> — Regional Editor</li>
+            <li><strong>Andrea Isidora Schuler Salazar</strong> — Surveyor</li>
+            <li><strong>Greta Samanta Álvarez Jiménez</strong> — Surveyor</li>
+            <li><strong>Xavier Alejandro Bahamondes Cabezas</strong> — Surveyor</li>
+            <li><strong>Martín José Corvalán Ferrario</strong> — Surveyor</li>
+            <li><strong>Cristian Nicolás Gonzalez Rodríguez</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>Bolivia</h3>
+          <ul class="surveyor-list">
+            <li><strong>Jose Capriles</strong> — Regional Editor</li>
+            <li><strong>Rodriguez Ascaño Luis Alejandro</strong> — Surveyor</li>
+            <li><strong>Machicado Aruquipa Mauricio Rolando</strong> — Surveyor</li>
+            <li><strong>Alejandro Sergio Calla Maldonado</strong> — Surveyor</li>
+            <li><strong>Patzi Mamani Vir Marti</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>South Central Highlands</h3>
+          <ul class="surveyor-list">
+            <li><strong>Steven Wernke</strong> — Regional Editor</li>
+            <li><strong>Ericka Guerra Santander</strong> — Surveyor</li>
+            <li><strong>Manuel Mamani</strong> — Surveyor</li>
+            <li><strong>Grecia Roque</strong> — Surveyor</li>
+            <li><strong>Kevin Ricci</strong> — Surveyor</li>
+            <li><strong>Greta Cullipher</strong> — Surveyor</li>
+            <li><strong>Ella Wright</strong> — Surveyor</li>
+            <li><strong>Bezalel Shin</strong> — Surveyor</li>
+            <li><strong>Cody Berkey</strong> — Surveyor</li>
+            <li><strong>Oluwatamilore Obisesan</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+        <div class="region-group fade-in">
+          <h3>South Coast</h3>
+          <ul class="surveyor-list">
+            <li><strong>Jacob Bongers</strong> — Regional Editor</li>
+            <li><strong>Jordan Elizabeth Osborn</strong> — Surveyor</li>
+            <li><strong>Rodrigo Javier Areche Espinola</strong> — Surveyor</li>
+            <li><strong>Richard Espino Huaman</strong> — Surveyor</li>
+            <li><strong>Jorge Alonso Rodríguez Morales</strong> — Surveyor</li>
+            <li><strong>Hannah Burn</strong> — Surveyor</li>
+            <li><strong>Maria Zamora Melo</strong> — Surveyor</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logos/GeoPACHA-AI_Logo.png" alt="GeoPACHA-AI">
+          <p>An international collaborative project developing AI models for continental-scale archaeological survey across the Andes.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Project</h4>
+          <ul>
+            <li><a href="about-geopacha-ai.html">About GeoPACHA-AI</a></li>
+            <li><a href="why-geopacha-ai.html">Why GeoPACHA-AI?</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://geopacha.cas.vanderbilt.edu/login">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>More</h4>
+          <ul>
+            <li><a href="about.html">Team</a></li>
+            <li><a href="funding.html">Funding</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 GeoPACHA-AI &middot; Vanderbilt University &amp; Brown University</span>
+        <div class="footer-logos">
+          <img src="images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF" loading="lazy">
+          <img src="images/logos/neh_logo_horizsmall.jpg" alt="NEH" loading="lazy">
+          <img src="images/logos/ACLSlogo-big.png" alt="ACLS" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
