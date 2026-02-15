@@ -794,6 +794,50 @@ p:last-child {
 }
 
 /* ============================================
+   LIGHTBOX
+   ============================================ */
+.figure--zoomable img {
+  cursor: zoom-in;
+  transition: opacity var(--transition);
+}
+
+.figure--zoomable img:hover {
+  opacity: 0.85;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lightbox-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.lightbox-overlay.active img {
+  transform: scale(1);
+}
+
+/* ============================================
    ANIMATIONS (subtle)
    ============================================ */
 /* Fade-in elements are visible by default to prevent blank pages */
