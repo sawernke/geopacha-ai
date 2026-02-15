@@ -448,6 +448,10 @@ p:last-child {
   border-radius: 8px;
 }
 
+.container--narrow .fade-in + .fade-in {
+  margin-top: var(--space-lg);
+}
+
 .figure {
   margin: var(--space-3xl) 0;
 }
