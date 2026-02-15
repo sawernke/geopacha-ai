@@ -1,3 +1,4 @@
+// v2
 // GeoPACHA-AI — Main JavaScript
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -73,6 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Open external links in new tab
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    if (!link.hostname || link.hostname !== window.location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+
   // Mark active nav link
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a').forEach(link => {
@@ -83,4 +92,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-
