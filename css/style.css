@@ -700,13 +700,6 @@ p:last-child {
 .footer-logos img {
   height: 36px;
   width: auto;
-  opacity: 0.5;
-  filter: brightness(2) grayscale(100%);
-  transition: opacity var(--transition);
-}
-
-.footer-logos img:hover {
-  opacity: 0.8;
 }
 
 /* ============================================
