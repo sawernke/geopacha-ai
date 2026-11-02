@@ -1,0 +1,5 @@
+# Google Drive sync temp files
+.fuse_hidden*
+
+# Editor/backup files
+*.bak
