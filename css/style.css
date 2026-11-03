@@ -3,9 +3,10 @@
    Clean, minimal academic aesthetic
    ============================================ */
 
-/* Poma with the logo's hand-drawn hyphen added; built by
+/* Poma by Gonzalo Tellez, free for personal, non-commercial use.
+   Web build with the logo's hand-drawn hyphen added; built by
    GeoPACHA_AI_2026/fonts-src/build_poma_web.py (kept outside this repo).
-   It has letters and digits only, so other punctuation falls back to Inter. */
+   It has letters and digits only, so other punctuation falls back to the heading font. */
 @font-face {
   font-family: 'Poma GeoPACHA';
   src: url('../fonts/poma-geopacha.woff2?v=2') format('woff2');
@@ -35,14 +36,15 @@
   --logo-red: #ea2f29;
   --logo-orange: #f17c19;
   --logo-gray: #cdcdcd;
+  --logo-gray-dark: #9a9a9a; /* logo gray darkened for light backgrounds */
   --logo-blue: #23709a;
   --logo-blue-light: #44a2d5; /* logo blue lightened (same hue) for dark backgrounds */
   --logo-gold: #f3b12e;
   --logo-yellow: #dfcd22;
 
   /* Typography */
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-heading: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-title: 'Poma GeoPACHA', var(--font-heading);
 
   /* Spacing */
@@ -377,6 +379,23 @@ p:last-child {
 .title--blue-light { --title-color: var(--logo-blue-light); }
 .title--gold   { --title-color: var(--logo-gold); }
 .title--yellow { --title-color: var(--logo-yellow); }
+
+/* Poma heading colored letter by letter in logo order; wrap each letter in a
+   <span> and leave spaces between words as plain text */
+.title-multicolor {
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0.02em;
+}
+
+.title-multicolor > span:nth-child(7n+1) { color: var(--logo-green); }
+.title-multicolor > span:nth-child(7n+2) { color: var(--logo-red); }
+.title-multicolor > span:nth-child(7n+3) { color: var(--logo-orange); }
+.title-multicolor > span:nth-child(7n+4) { color: var(--logo-gray-dark); }
+.title-multicolor > span:nth-child(7n+5) { color: var(--logo-blue); }
+.title-multicolor > span:nth-child(7n+6) { color: var(--logo-gold); }
+.title-multicolor > span:nth-child(7n+7) { color: var(--logo-yellow); }
 
 .page-hero p {
   color: rgba(255,255,255,0.8);
