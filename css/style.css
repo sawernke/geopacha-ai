@@ -476,6 +476,11 @@ p:last-child {
   margin-bottom: var(--space-3xl);
 }
 
+.team-section:last-child,
+.region-group:last-child {
+  margin-bottom: 0;
+}
+
 .team-section h2 {
   margin-bottom: var(--space-lg);
   padding-bottom: var(--space-sm);
@@ -525,7 +530,9 @@ p:last-child {
 .surveyor-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: var(--space-sm);
+  gap: var(--space-sm) var(--space-lg);
+  list-style: none;
+  padding: 0;
 }
 
 .surveyor-list .team-member {
