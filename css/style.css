@@ -397,6 +397,18 @@ p:last-child {
 .title-multicolor > span:nth-child(7n+6) { color: var(--logo-gold); }
 .title-multicolor > span:nth-child(7n+7) { color: var(--logo-yellow); }
 
+/* Per-letter classes (c0-c6) for titles containing nested tags; hero variant uses
+   lighter gray/blue for dark backgrounds */
+.title-multicolor .c0 { color: var(--logo-green); }
+.title-multicolor .c1 { color: var(--logo-red); }
+.title-multicolor .c2 { color: var(--logo-orange); }
+.title-multicolor .c3 { color: var(--logo-gray-dark); }
+.title-multicolor .c4 { color: var(--logo-blue); }
+.title-multicolor .c5 { color: var(--logo-gold); }
+.title-multicolor .c6 { color: var(--logo-yellow); }
+.title-multicolor--hero .c3 { color: var(--logo-gray); }
+.title-multicolor--hero .c4 { color: var(--logo-blue-light); }
+
 .page-hero p {
   color: rgba(255,255,255,0.8);
   font-size: 1.125rem;
